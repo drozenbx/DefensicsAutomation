@@ -1,0 +1,4 @@
+java -jar /opt/Synopsys/Defensics/monitor/boot.jar 
+--testplan /root/synopsys/defensics/Automation_Test_plans/FCOE-Server/FCOE_Server_VN2VF_SCSI_Payload.testplan  
+--virtual-mac {virtual_mac}  --device {device_name}  --timeout 1 --log-dir {log_dir}  
+--exec-instrument ping -c 1  {ip}

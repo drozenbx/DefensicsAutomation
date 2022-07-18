@@ -1,0 +1,9 @@
+java -jar /opt/Synopsys/Defensics/monitor/boot.jar 
+--testplan /root/synopsys/defensics/Automation_Test_plans/IPv4/IPv4.testplan   
+--host {ip} 
+--device {device_name}  
+--virtual-ip {virtual_ip} 
+--virtual-mac {virtual_mac}   --instr-device {device_name}  
+--target-mac {mac}  --dual-source-instr No 
+--timeout 1 --log-dir {log_dir}   
+--exec-instrument ping -c 1 {ip}

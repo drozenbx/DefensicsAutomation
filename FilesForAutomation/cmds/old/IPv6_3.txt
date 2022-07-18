@@ -1,0 +1,11 @@
+java -jar /opt/Synopsys/Defensics/monitor/boot.jar 
+--testplan synopsys/defensics/Automation_Test_plans/IPv6/IPv6_3.testplan    
+--target-host {ip} 
+--source-prefix fe80::3efd:feff:fea8:9878/64 
+--device {device_name} 
+--mac-selection user 
+--target-mac {mac} 
+--virtual-mac {virtual_mac} 
+--interface-config virtual-mac {virtual_mac}  --virtual-ip {virtual_ip} 
+--timeout 1  
+--exec-instrument ping -c 1 {ip}

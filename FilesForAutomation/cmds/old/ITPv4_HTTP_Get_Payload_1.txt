@@ -1,0 +1,6 @@
+java -jar /opt/Synopsys/Defensics/monitor/boot.jar 
+--testplan synopsys/defensics/Automation_Test_plans/TCP_server_for_IPv4/ITPv4_HTTP_Get_Payload_1.testplan  
+--host {ip} 
+--device {device_name} 
+--timeout 1  
+--exec-instrument ping -c 1 {ip}

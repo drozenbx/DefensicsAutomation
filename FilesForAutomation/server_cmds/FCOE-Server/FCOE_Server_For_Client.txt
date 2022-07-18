@@ -1,0 +1,4 @@
+java -jar /opt/Synopsys/Defensics/monitor/boot.jar 
+--testplan /root/synopsys/defensics/Automation_Server_Test_plan/FCOE-Server/FCOE_Server_For_Client.testplan 
+ --device {device_name} 
+ --virtual-mac {virtual_mac} 

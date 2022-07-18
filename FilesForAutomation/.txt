@@ -1,0 +1,1 @@
+ifconfig {device_name} mtu 9124

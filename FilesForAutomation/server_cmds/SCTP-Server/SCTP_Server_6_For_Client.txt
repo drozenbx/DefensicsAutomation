@@ -1,0 +1,4 @@
+java -jar /opt/Synopsys/Defensics/monitor/boot.jar 
+--testplan /root/synopsys/defensics/Automation_Server_Test_plan/SCTP-Server/SCTP_Server_For_Client.testplan 
+ --target-host {ip} 
+ --interface-config device={device_name}\;dhcp=false\;virtual-mac={virtual_mac}\;virtual-ip={virtual_ip}\;netmask=255.255.0.0  

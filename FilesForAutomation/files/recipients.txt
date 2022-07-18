@@ -1,0 +1,5 @@
+yehonatan.kali@intel.com
+michal.m.amsellem@intel.com
+dvorax.siroka@intel.com
+leax.dancour@intel.com
+canax.adler@intel.com

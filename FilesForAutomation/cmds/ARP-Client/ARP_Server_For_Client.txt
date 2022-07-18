@@ -1,0 +1,6 @@
+java -jar /opt/Synopsys/Defensics/monitor/boot.jar 
+--testplan /root/ARP_Server_For_Client.testplan 
+--host {ip} 
+--target-mac {mac} --device {device_name} 
+--virtual-ip {virtual_ip} --virtual-mac {virtual_mac} 
+ --log-dir {log_dir}  

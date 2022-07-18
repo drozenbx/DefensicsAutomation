@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<test-run-data>
+	<suite>SCTP-Client(3)</suite>
+	<state>Finished</state>
+	<case-index>348294</case-index>
+	<elapsed-time>289877170</elapsed-time>
+	<remaining-time>0</remaining-time>
+	<executed-cases>348295</executed-cases>
+	<remaining-cases>0</remaining-cases>
+	<passed-cases>344367</passed-cases>
+	<failed-cases>0</failed-cases>
+	<passed-snmp-cases>0</passed-snmp-cases>
+	<failed-snmp-cases>0</failed-snmp-cases>
+	<failed-snmp-traps>0</failed-snmp-traps>
+	<passed-safe-guard-checks>0</passed-safe-guard-checks>
+	<warning-safe-guard-checks>0</warning-safe-guard-checks>
+	<failed-safe-guard-checks>0</failed-safe-guard-checks>
+	<failed-isa-secure-cases>0</failed-isa-secure-cases>
+	<failed-syslog-messages>0</failed-syslog-messages>
+	<other-cases>3928</other-cases>
+	<case-rate-per-second>1.2015262</case-rate-per-second>
+	<total-cases>348295</total-cases>
+</test-run-data>

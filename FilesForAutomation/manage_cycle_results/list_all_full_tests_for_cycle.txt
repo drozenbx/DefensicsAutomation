@@ -1,0 +1,28 @@
+SCTP  Server: 1
+EAP Server - EAPol read-extra-identities: 1
+TCP Server for IPv6 -  generic outgoing payload: 9
+EAP Server - EAPol: 1
+ARP Client: 1
+GRE - LDP with Ethernet over PW: 1
+TCP Server for IPv6 - HTTP 1.1 GET payload: 9
+Ethernet (802.3, 802.1Q) - Ethernet (802.3, 802.1Q): 1
+TCP Server for IPv6 - echo payload: 9
+ICMPv6 - Teredo: 21
+TCP Server for IPv6 -  generic incoming payload: 9
+MPLS - Server: 1
+Ethernet (802.3, 802.1Q) - Eth with jumbo frame: 1
+TCP Server for IPv6 -TELENT payload: 9
+MPLS - Specialised: 1
+Arp Server: 1
+IEEE1588 PTP Server - PTPv2: 1
+IEEE1588 PTP Server - PTPv1: 1
+LLDP: 1
+ICMPv6 - Client - Response: 1
+GRE - LDP for tunnelled IPv4: 1
+ICMPv6: 21
+ICMPv4: 1
+SCTP Client: 16
+IEEE1588 PTP Client - PTPv2: 1
+IEEE1588 PTP Client - PTPv1: 1
+TCP Server for IPv6 -SSHv2 payload: 9
+TCP Server for IPv6 -  BGP4 OPEN payload: 9

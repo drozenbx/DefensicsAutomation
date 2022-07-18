@@ -1,0 +1,1 @@
+tcpreplay --intf1={device_name} --loop=0  /root/synopsys/defensics/Automation_Server_Test_plan/pcap-server/ICMPv6-response-cvl0_5.pcap

@@ -1,0 +1,8 @@
+java -jar /opt/Synopsys/Defensics/monitor/boot.jar 
+--testplan synopsys/defensics/Automation_Test_plans/TCP_For_IPv6/TCP_Server_IPv6_TELENT_Payload_2.testplan  
+--host {ip} 
+--source-prefix fe80::3efd:feff:fea8:8f80/64 
+--device {device_name}  --target-mac {mac} 
+--virtual-mac {virtual_mac} 
+--timeout 1  
+--exec-instrument ping -c 1 {ip}

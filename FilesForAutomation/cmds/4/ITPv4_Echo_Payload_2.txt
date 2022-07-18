@@ -1,0 +1,6 @@
+java -jar /opt/Synopsys/Defensics/monitor/boot.jar 
+--testplan /root/synopsys/defensics/Automation_Test_plans/TCP_server_for_IPv4/ITPv4_Echo_Payload_2.testplan  
+--host {ip} 
+--device {device_name}   --interface-config device={device_name}\;dhcp=false\;virtual-mac={virtual_mac}\;virtual-ip={virtual_ip}\;netmask=255.255.0.0  
+--timeout 1 --log-dir {log_dir}   
+--exec-instrument ping -c 1 {ip}

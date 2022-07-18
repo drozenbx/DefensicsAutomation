@@ -1,0 +1,6 @@
+java -jar /opt/Synopsys/Defensics/monitor/boot.jar
+--testplan /root/synopsys/defensics/Automation_Test_plans/L2TPv2_v3/L2TPv3_OCRQ.testplan  
+--host  {ip} 
+--interface-config device {device_name}  --virtual-mac  {virtual_mac}  --virtual-ip  {virtual_ip}
+--timeout 1  
+--exec-instrument ping -c 1  {ip}

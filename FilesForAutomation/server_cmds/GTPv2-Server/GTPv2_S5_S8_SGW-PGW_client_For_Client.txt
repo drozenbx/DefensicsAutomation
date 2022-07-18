@@ -1,0 +1,3 @@
+java -jar /opt/Synopsys/Defensics/monitor/boot.jar 
+--testplan /root/synopsys/defensics/Automation_Server_Test_plan/GTPv2-Server/GTPv2_S5_S8_SGW-PGW_server.testplan  
+--host {ip} --interface {virtual_ip}  --local-host {ip} 

@@ -1,0 +1,5 @@
+java -jar /opt/Synopsys/Defensics/monitor/boot.jar 
+--testplan synopsys/defensics/Automation_Test_plans/GRE/GRE_LDP_For_Tunnelled_IPv4.testplan  
+--host {mac}  --virtual-ip  {virtual_ip}  --interface-config {device_name}
+--interface-config device {device_name}  --virtual-mac {virtual_mac} mtu 9124 --timeout 1 
+--exec-instrument ping -c 1  {ip}

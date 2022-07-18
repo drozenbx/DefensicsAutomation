@@ -1,0 +1,3 @@
+java -jar /opt/Synopsys/Defensics/monitor/boot.jar 
+--testplan /root/synopsys/defensics/Automation_Test_plans/GTPv2-Client/GTPv2_S2b_ePDG-PGW_client_6.testplan 
+ --interface {virtual_ip}  --local-host {ip}  --exec-instrument ping -c 1  {ip}  --log-dir {log_dir}  

@@ -1,0 +1,1 @@
+tcpreplay --intf1={device_name} --loop=0  /root/synopsys/defensics/Automation_Server_Test_plan/pcap-server/SCTP-cvl0_1.pcap

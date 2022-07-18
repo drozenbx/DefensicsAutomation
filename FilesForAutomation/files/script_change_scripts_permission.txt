@@ -1,0 +1,11 @@
+chmod +x /root/PycharmProjects/DefensicsAutomation/ExecuteAsInstrumentation.py
+chmod +x /root/PycharmProjects/DefensicsAutomation/Run.py
+chmod +x /root/PycharmProjects/DefensicsAutomation/ScriptPartXLByProtocol.py
+chmod +x /root/PycharmProjects/DefensicsAutomation/ScriptPublishResults.py
+chmod +x /root/PycharmProjects/DefensicsAutomation/ScriptReproduceFailures.py
+chmod +x /root/PycharmProjects/DefensicsAutomation/SendDailyCycleResults.py
+chmod +x /root/PycharmProjects/DefensicsAutomation/SendDailyResults.py
+chmod +x /root/PycharmProjects/DefensicsAutomation/UpdateCycleResults.py
+chmod +x /root/PycharmProjects/DefensicsAutomation/ScriptKillDefensicsProcesses.py
+chmod +x /root/PycharmProjects/DefensicsAutomation/ScriptDoReset.py
+chmod +x /root/PycharmProjects/DefensicsAutomation/ScriptUpdateXLWithFinishedTests.py

@@ -1,0 +1,5 @@
+java -jar /opt/Synopsys/Defensics/monitor/boot.jar 
+--testplan /root/synopsys/defensics/Automation_Test_plans/IEEE1588-Server/IEEE1588_Server_PTPv1.testplan   
+--device {device_name} 
+--timeout 1 --log-dir {log_dir}   
+--exec-instrument ping -c 1 {ip}

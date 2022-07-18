@@ -1,0 +1,6 @@
+java -jar /opt/Synopsys/Defensics/monitor/boot.jar 
+--testplan /root/synopsys/defensics/MevTestPlan/testplans/Xsum/xsums-TCP4_TELNET.testplan  
+--host {ip} 
+--device {device_name}   --interface-config device={device_name}\;dhcp=false\;virtual-mac={virtual_mac}\;virtual-ip={virtual_ip}\;netmask=255.255.0.0  
+--timeout 1 --log-dir {log_dir}   
+--exec-instrument ping -c 1 {ip}

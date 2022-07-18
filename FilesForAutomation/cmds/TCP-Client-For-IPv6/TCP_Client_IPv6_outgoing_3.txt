@@ -1,0 +1,5 @@
+java -jar /opt/Synopsys/Defensics/monitor/boot.jar 
+--testplan /root/synopsys/defensics/Automation_Test_plans/TCP-Client-For-IPv6/TCP_Client_IPv6_outgoing_3.testplan 
+--source-prefix fe80::3efd:feff:fea8:8f80/64 
+--device {device_name} 
+--virtual-mac {virtual_mac}  --exec-instrument ping6 -c 1 -I {device_name} {ipv6}  --log-dir {log_dir}  

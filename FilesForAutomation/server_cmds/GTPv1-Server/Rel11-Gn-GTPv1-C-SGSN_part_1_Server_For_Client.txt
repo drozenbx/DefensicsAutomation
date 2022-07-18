@@ -1,0 +1,3 @@
+java -jar /opt/Synopsys/Defensics/monitor/boot.jar 
+--testplan /root/synopsys/defensics/Automation_Server_Test_plan/GTPv1-Server/Rel11-Gn-GTPv1-C-SGSN_part_1_Server.testplan 
+ --gtpv1-u-host {ip} --gtpv1-c-host {ip}  

@@ -1,0 +1,6 @@
+java -jar /opt/Synopsys/Defensics/monitor/boot.jar 
+--testplan /root/synopsys/defensics/Automation_Server_Test_plan/TCP-Server-IPv6/TCP_Server_IPv6_outgoing_For_Client.testplan 
+--host {ipv6} 
+--source-prefix fe80::3efd:feff:fea8:8f80/64 
+--device mev0_0 --mac-selection user  --target-mac {mac} 
+--virtual-mac {virtual_mac} 

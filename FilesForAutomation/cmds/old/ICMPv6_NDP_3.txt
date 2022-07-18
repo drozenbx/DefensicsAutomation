@@ -1,0 +1,10 @@
+java -jar /opt/Synopsys/Defensics/monitor/boot.jar 
+--testplan synopsys/defensics/Automation_Test_plans/ICMPv6/ICMPv6_NDP_3.testplan   
+--host {ip} 
+--source-prefix fe80::3efd:feff:fea8:9878/64 
+--device {device_name} 
+--mac-selection user 
+--target-mac {mac} 
+--virtual-mac {virtual_mac} 
+--timeout 1  
+--exec-instrument ping -c 1 {ip}

@@ -1,0 +1,3 @@
+java -jar /opt/Synopsys/Defensics/monitor/boot.jar 
+--testplan synopsys/defensics/Automation_Test_plans/GTPv1_client/GPTv1_Client_U.testplan   
+--timeout 1 

@@ -1,0 +1,4 @@
+java -jar /opt/Synopsys/Defensics/monitor/boot.jar 
+--testplan /root/synopsys/defensics/Automation_Test_plans/GTPv0/GTPv0.testplan   
+--host {ip} 
+--exec-instrument ping -c 1  {ip}  --log-dir {log_dir}  

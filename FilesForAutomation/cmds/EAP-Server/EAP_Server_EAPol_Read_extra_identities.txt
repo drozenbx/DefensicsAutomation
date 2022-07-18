@@ -1,0 +1,7 @@
+java -jar /opt/Synopsys/Defensics/monitor/boot.jar 
+--testplan /root/synopsys/defensics/Automation_Test_plans/EAP-Server/EAP_Server_EAPol_Read_extra_identities.testplan   
+--target-mac {mac} 
+--virtual-mac {virtual_mac} 
+--device {device_name} 
+--timeout 1 --log-dir {log_dir}   
+--exec-instrument ping -c 1 {ip}

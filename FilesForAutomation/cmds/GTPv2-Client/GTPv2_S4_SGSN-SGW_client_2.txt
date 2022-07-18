@@ -1,0 +1,3 @@
+java -jar /opt/Synopsys/Defensics/monitor/boot.jar 
+--testplan /root/synopsys/defensics/Automation_Test_plans/GTPv2-Client/GTPv2_S4_SGSN-SGW_client_2.testplan 
+ --interface {virtual_ip}  --local-host {ip} --log-dir {log_dir}  
